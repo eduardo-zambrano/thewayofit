@@ -233,6 +233,9 @@ nav a.active {
 .hero::before {
   content: '';
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: min(70vw, 500px);
   height: min(70vw, 500px);
   background-image: url('../images/enso.svg');
@@ -572,7 +575,7 @@ footer p {
 }
 
 .page-hero::before {
-  top: 60px;
+  top: calc(50% + 40px);
 }
 
 .page-hero h1 {
