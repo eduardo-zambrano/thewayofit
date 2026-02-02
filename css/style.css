@@ -567,8 +567,8 @@ footer p {
 
 /* Page hero - smaller for interior pages */
 .page-hero {
-  min-height: 50vh;
-  padding-top: calc(var(--space-xl) + 60px);
+  min-height: 55vh;
+  padding-top: calc(var(--space-xl) + 100px);
 }
 
 .page-hero h1 {
