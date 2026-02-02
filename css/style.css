@@ -225,7 +225,7 @@ nav a.active {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: var(--space-xl) var(--space-md);
+  padding: var(--space-xl) var(--space-md) var(--space-lg);
   position: relative;
 }
 
@@ -265,7 +265,7 @@ nav a.active {
 main {
   max-width: 750px;
   margin: 0 auto;
-  padding: var(--space-lg) var(--space-md);
+  padding: var(--space-md) var(--space-md) var(--space-lg);
 }
 
 section {
