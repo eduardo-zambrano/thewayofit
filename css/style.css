@@ -235,9 +235,11 @@ nav a.active {
   position: absolute;
   width: min(70vw, 500px);
   height: min(70vw, 500px);
-  border: 1px solid var(--sand);
-  border-radius: 50%;
-  opacity: 0.6;
+  background-image: url('../images/enso.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.12;
 }
 
 .hero-content {
@@ -587,6 +589,18 @@ footer p {
   object-fit: cover;
   border-radius: 50%;
   flex-shrink: 0;
+}
+
+/* Featured image - rectangular, centered above content */
+.featured-image {
+  text-align: center;
+  margin: 0 0 var(--space-lg) 0;
+}
+
+.featured-image img {
+  width: 85%;
+  height: auto;
+  border-radius: 4px;
 }
 
 /* Utilities */
