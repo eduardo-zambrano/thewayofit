@@ -575,7 +575,7 @@ footer p {
 }
 
 .page-hero::before {
-  top: calc(50% + 130px);
+  top: calc(50% + 160px);
 }
 
 .page-hero h1 {
